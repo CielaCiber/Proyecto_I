@@ -10,7 +10,7 @@ public class Client {
 	private final Integer PORT = 13;
 	private final String IP = "localhost";
 	
-	//constructor
+	//constructor QUE SIEMPRE VAMOS A USAR
 	public Client() {
 		try {
 			Socket clientServer = new Socket(IP, PORT);
